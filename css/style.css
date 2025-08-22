@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Alegreya Sans", sans-serif;
+}
+
+.clr {
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Alegreya", serif;
+}
+
+.home {
+  height: 740px;
+  background-image: url("../img/img1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.home .text-home {
+  text-align: center;
+  width: 50%;
+  margin: 200px auto;
+  color: #fff;
+}
+
+.home .text-home h1 {
+  font-size: 76px;
+  margin: 10px 0;
+}
+
+.home .text-home .desc {
+  font-size: 22px;
+}
+
+.home .text-home .desc2 {
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+.home .text-home .btn {
+  padding: 15px 28px;
+  background-color: #8e7754;
+  color: #fff;
+  font-weight: 600;
+  border: 2px solid #8e7754;
+  border-radius: 3px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.home .text-home .btn2 {
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+
+.sec {
+  padding: 70px 0;
+  background-color: whitesmoke;
+}
+
+.sec .about-sec {
+  width: 50%;
+  float: left;
+  padding: 20px;
+}
+
+.sec .about-text {
+  margin-top: 70px;
+  font-size: medium;
+}
+
+.sec .about-text p {
+  margin-top: 35px;
+  font-size: 17px;
+}
+
+.sec .about-text h2 {
+  font-size: x-large;
+  font-size: 30px;
+}
+
+.location {
+  padding: 70px 0;
+  background-color: #f7f7f3;
+}
+
+.location .about-location {
+  width: 50%;
+  float: left;
+  padding: 20px;
+}
+
+.location .about-text {
+  margin-top: 70px;
+}
+
+.location .about-text p {
+  margin-top: 35px;
+  font-size: 17px;
+}
+
+.location .about-text h2 {
+  font-size: x-large;
+  font-size: 30px;
+}
+
+.Baking {
+  background-color: #fff;
+  padding: 70px 0;
+}
+
+.Baking .header h3 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.Baking .header p {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 17px;
+}
+
+.Baking .about-Baking {
+  width: 33.333%;
+  text-align: center;
+  float: left;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.Baking .about-Baking h5 {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.Baking .about-Baking p {
+  font-size: 17px;
+  margin-top: 20px;
+}
+
+.contact {
+  padding: 70px 0;
+  background-color: #f8f8f8;
+}
+
+.contact .about-contact {
+  width: 50%;
+  float: left;
+  padding: 20px;
+}
+
+.contact .about-text {
+  margin-top: 40px;
+}
+
+.contact .about-text p {
+  margin-top: 35px;
+  font-size: 17px;
+}
+
+.contact .about-text h2 {
+  font-size: xx-large;
+  font-size: 30px;
+}
+
+.foot {
+  background-color: rgb(61, 61, 61);
+  padding: 50px 0;
+}
+
+.foot .aboutus {
+  width: 24%;
+  text-align: left;
+  float: left;
+  padding: 60px;
+}
+
+.foot .aboutus h5 {
+  margin: 10px 0;
+  font-size: 20px;
+  color: #b9b7b7;
+}
+
+.foot .aboutus p {
+  font-size: 16px;
+  margin-top: 20px;
+  color: gray;
+}
+
+.foot li {
+  color: gray;
+}
+
+.deepfoot {
+  float: left;
+  text-align: center;
+  background-color: #363636;
+  padding: 50px 0;
+  height: 300px;
+  width: 100%;
+}
+
+.deepfoot img {
+  width: 24%;
+}
+
+.deepfoot p {
+  margin-top: 20px;
+  color: rgb(116, 115, 115);
+}
+
+@media screen and (max-width: 800px) {
+  .Baking .about-Baking {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .home .text-home h1 {
+    font-size: 60px;
+    margin-top: 20px;
+  }
+}
